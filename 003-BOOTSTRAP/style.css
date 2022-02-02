@@ -1,0 +1,45 @@
+.navbar-toggler {
+    order: -1;
+}
+.nav-link {
+    color: red !important;
+    font-size: 1.2rem;
+    letter-spacing: 2px;
+}
+.nav-link:hover {
+    color: black !important;
+}
+.bg-navbar {
+    background-color: rgba(0,0,0,0.8);
+}
+.fixed-navbar {
+    min-height: 200px;
+    width: 100px;
+    background-color:paleturquoise;
+
+    position:fixed;
+    right: -80px;
+    top: 50%;
+    transition: right 1s;
+}
+.fixed-navbar:hover {
+    right: 0;
+}
+
+.animated {
+    opacity: 0;
+    animation-name: fading;
+    animation-duration: 2s;
+    animation-iteration-count: 2;
+    animation-fill-mode: forwards;
+    animation-direction: alternate;
+    animation-delay: 2s;
+}
+@keyframes fading {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}

@@ -1,0 +1,45 @@
+.parent {
+    height: 500px;
+    width: 500px;
+    border: 1px solid black;
+}
+.child {
+    height: 100px;
+    width: 100px;
+    border: 1px solid black;
+    box-sizing: border-box;
+}
+.red {
+    background-color: red;
+}
+.yellow {
+    background-color: yellow;
+}
+
+main, section {
+    height: 100vh;
+    border: 1px solid black;
+
+}
+.gap {
+    height: 300px;
+    background-color: papayawhip;
+}
+.bg-1 {
+    background-image: url(food.png);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.bg-2 {
+    background-image: url(bg-fishes.png);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.bg-3 {
+    background-image: url(dog-man.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}

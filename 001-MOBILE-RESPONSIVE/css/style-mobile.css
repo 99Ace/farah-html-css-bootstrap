@@ -1,0 +1,33 @@
+/* mobile setting ( 0px to infinite) */
+body {
+    background-color: red;
+}
+
+
+/* ipad setting ( 768px to infinite) */
+@media screen and (min-width:768px) {
+    body {
+        background-color: yellow;
+    }
+}
+
+/* ipad pro setting ( 992px to infinite) */
+@media screen and (min-width:992px) {
+    body {
+        background-color: green;
+    }
+}
+
+/* netbook and small laptop setting ( 1200px to infinite) */
+@media screen and (min-width:1200px) {
+    body {
+        background-color: blue;
+    }
+}
+
+/* laptop and larger setting ( 1400px to infinite) */
+@media screen and (min-width:1400px) {
+    body {
+        background-color: blueviolet;
+    }
+}

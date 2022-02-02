@@ -1,0 +1,109 @@
+/* MOBILE SETTING  */
+body {
+    /* background-color: rgb(250, 240, 226); */
+    margin: 0;
+}
+/* navbar setting */
+nav {
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+}
+.nav-icon {
+    font-size: 1.4rem;
+    color: orangered;
+}
+.navbar-brand {
+    /* font-size: 2.2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700; */
+
+    margin: 0 auto;
+    /* alternate way of coding   */
+    /* margin-left: auto; */
+    /* margin-right: auto; */
+}
+.navbar-brand>a{
+    font-size: 2.2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    text-decoration: none;
+    color: black;
+}
+nav ul {
+    /* any ul that is nested in nav */
+}
+nav>ul {
+    /* ul that is a direct child of nav */
+    margin: 0;
+    padding: 0;
+    display: none;
+}
+nav>ul>li {
+    display: inline-block;
+}
+/* replace nav>ul>li>a with .nav-link */
+.nav-link {
+    text-decoration: none;
+    color: rgb(29, 29, 29);
+    font-size: 1.1rem;
+    margin: 0 10px;
+    /* border: 1px solid black; */
+}
+.nav-link:hover {
+    border-bottom: 2px solid red;
+}
+/* ./navbar */
+
+/* main styling */
+main {
+    height: 250px;
+    background-color: blanchedalmond;
+    background-image: url(../images/food.png);
+    background-size: cover;
+    background-position: center;
+}
+/* ./main */
+
+/* IPAD SETTING : 768px*/
+@media screen and (min-width:768px){
+    body {
+        /* background-color: paleturquoise; */
+    }
+    /* navbar */
+    /* if no changes, then no need code */
+    /* it will follow the mobile setting */
+    /* ./navbar */
+}
+
+
+/* IPAD PRO : 992px */
+@media screen and (min-width:992px) {
+    body {
+        /* background-color: rgb(180, 238, 175); */
+    }
+    /* navbar */
+    nav {
+        padding: 15px 30px;
+    }
+    .collapse {
+        display: none;
+    }
+    .navbar-brand {
+        margin-left: unset;
+    }
+    .nav-icon {
+        padding-left: 20px;
+    }
+    nav>ul {
+        display: block;
+    }
+    /* ./navbar */
+}
+
+/* LAPTOP & ABOVE : 1200px */
+@media screen and (min-width:1200px) {
+    body {
+        /* background-color: rgb(227, 175, 238); */
+    }
+}
